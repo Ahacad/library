@@ -6,10 +6,11 @@ Personal book management tools.
 
 
 
+## Structures
 
 ### Conventions
 1. '-' is the separator, **not optional** must have it even without publisher, etc. (must have 4 '-')
--  use `_` instead of space for multiple author names
+-  use `&` instead of space for multiple author names
 -  tree style management for subjects (D. Mathematics - DA. Analysis)
 -  name for books:
     delimiter is like AB01, the character represents the subject while the number is largely arbitrary (by the date it was added to the library),
@@ -48,17 +49,77 @@ A. Philosophy
     - AE.Kant
     - AF.Heidegger
 
-B. Mathematics
+D. Mathematics
+    - DA.History
+    - DB.Logic
+    - DC.NumberTheory
+    - DD.Algebra
+        - DDA.LinearAlgebra
+    - DE.AlgebraicGeometry
+    - DF.Geometry
+    - DG.Topology
+    - DH.MathematicalAnalysis
+    - DI.NonstandardAnalysis
+    - DJ.FunctionTheory
+    - DK.ODE
+    - DL.PDE
+    - DM.DynamicSystem
+    - DN.IntegralFunction
+    - DO.FunctionalAnalysis
+    - DP.Computation
+    - DQ.Probability
+    - DR.Statistics
+    - DS.AppliedStatistics
+    - DT.
+    - DU.OperationsResearch
+    - DV.Combinatorics
+    - DW.DiscreteMath
+    - DX.FuzzyMathematics
+    - DY.AppliedMath
+    - DZ.Others
 
-C. CS
+E. CS
+    - EA.General
+    - EB.Languages
+        - EBA.TeX
+        - EBB.VBA
+        - EBC.C++
+        - EBD.Python
+        - EBE.C
+        - EBF.Unix
+        - EBG.FrontMatter
+        - EBH.Vim
+        - EBI.Java
+        - EBJ.Django
+
+    - EC.Philosophy
+    - ED.Bases
+        - EDA.Compiler
+        - EDB.Architerture
+        - EDC.OperatingSystem
+        - EDD.Network
+        - EDE.Database
+        - EDF.Languages
+    - EE.MachineLearning
+    - EH.Algorithms
+    - EI.Mathematics
+
 D. Music
+
 E. Psychology
+
 F. Management
-G. Natural_Science
+
+G. NaturalScience
+
 H. Literature
+
 I. Practical(Miscellaneous)
+
 J. History
+
 K. Languages
+
 L.
 
 
@@ -68,4 +129,8 @@ L.
 
 ### Examples for book naming
 
+
+## Usages of library
+
+This library serves as a repository for books, papers, etc. Projects that employ resources from this library will use the link file type.
 
